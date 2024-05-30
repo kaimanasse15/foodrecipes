@@ -2,4 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.custom-list-item li {
+  padding: 6px 12px;
+  border-radius: 20px; /* Add this line to make the background rounded */
+  background-color: #89ee36;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+.custom-list-item li:not(:last-child) {
+  margin-right: 8px;
+}
