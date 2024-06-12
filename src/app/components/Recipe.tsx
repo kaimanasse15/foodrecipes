@@ -65,14 +65,12 @@ const Recipe = () => {
       </div>
 
       <ul className="mt-10 hidden sm:flex gap-6 md:gap-10 lg:gap-20 w-fit mx-auto">
-        <li className="bg-accent text-white p-1">Appetizers</li>
-        <li>Sweet Soup</li>
-        <li>Soup</li>
-        <li>Steam</li>
-        <li>Grill</li>
-        <li>Drinks</li>
-        <li><Link href="hotpot">Hot Pot</Link></li>     
-         </ul>
+    <li className="bg-accent text-white p-1"><Link href="appertizers">Appetizers</Link></li>
+    <li className="bg-accent text-white p-1" ><Link href="sweetsoup">Sweet Soup</Link></li>
+    <li className="bg-accent text-white p-1"><Link href="soup">Soup</Link></li>
+    <li className="bg-accent text-white p-1"><Link href="drink">Drinks</Link></li>
+    <li className="bg-accent text-white p-1"><Link href="hotpot">Hot Pot</Link></li>
+</ul>
 
       <div className="grid lg:grid-cols-[35%,1fr] gap-10 pt-10">
         <div className="w-fit mx-auto">

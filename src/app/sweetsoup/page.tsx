@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HotPot = () => {
+const SweetSoup = () => {
   return (
     <div
       style={{
@@ -19,7 +19,7 @@ const HotPot = () => {
           marginBottom: '10px',
         }}
       >
-        Hot Pot Page
+        Vietnamese Sweet Soup Page
       </h1>
       <p
         style={{
@@ -27,11 +27,11 @@ const HotPot = () => {
           marginBottom: '20px',
         }}
       >
-        This is the Hot Pot page.
+        This is the Vietnamese Sweet Soup page.
       </p>
       <img
-        src="/Pho.png"
-        alt="Hot Pot Image"
+        src="/s.png"
+        alt="Vietnamese Sweet Soup Image"
         style={{
           width: '100%',
           height: '200px',
@@ -52,7 +52,7 @@ const HotPot = () => {
             marginTop: '0',
           }}
         >
-          About Hot Pot
+          About Vietnamese Sweet Soup
         </h2>
         <p
           style={{
@@ -60,7 +60,7 @@ const HotPot = () => {
             marginBottom: '10px',
           }}
         >
-          Hot pot is a popular communal dish originating from China.
+          Chè is a popular Vietnamese dessert soup made with various beans, fruits, and coconut milk.
         </p>
         <p
           style={{
@@ -68,7 +68,7 @@ const HotPot = () => {
             marginBottom: '10px',
           }}
         >
-          It's a simmering pot of broth placed at the center of the table, and diners add various ingredients to cook in the pot.
+          It's a sweet and refreshing treat that's perfect for hot days.
         </p>
       </section>
       <section
@@ -83,7 +83,7 @@ const HotPot = () => {
             marginTop: '0',
           }}
         >
-          Popular Hot Pot Ingredients
+          Popular Vietnamese Sweet Soup Ingredients
         </h2>
         <ul
           style={{
@@ -97,42 +97,35 @@ const HotPot = () => {
               marginBottom: '10px',
             }}
           >
-            Thinly sliced beef
+            Mung beans
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Pork belly
+            Red kidney beans
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Shrimp
+            Coconut milk
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Mushrooms
+            Palm sugar
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Noodles
-          </li>
-          <li
-            style={{
-              marginBottom: '10px',
-            }}
-          >
-            Vegetables (e.g. carrots, lotus root, bok choy)
+            Various fruits (e.g. jackfruit, longan, lychee)
           </li>
         </ul>
       </section>
@@ -148,7 +141,7 @@ const HotPot = () => {
             marginTop: '0',
           }}
         >
-          Hot Pot Tips
+          Vietnamese Sweet Soup Tips
         </h2>
         <ol
           style={{
@@ -162,21 +155,21 @@ const HotPot = () => {
               marginBottom: '10px',
             }}
           >
-            Choose a variety of ingredients to ensure a balanced meal.
+            Use a variety of beans and fruits to create a colorful and flavorful soup.
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Start with lighter ingredients (e.g. vegetables) and move to heavier ones (e.g. meat).
+            Adjust the sweetness level to your taste by adding more or less palm sugar.
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Don't overcook your ingredients!
+            Serve the soup chilled for a refreshing treat.
           </li>
         </ol>
       </section>
@@ -184,4 +177,4 @@ const HotPot = () => {
   );
 };
 
-export default HotPot;
+export default SweetSoup;

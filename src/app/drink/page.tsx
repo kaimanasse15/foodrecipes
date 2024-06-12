@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HotPot = () => {
+const VietnameseDrinks = () => {
   return (
     <div
       style={{
@@ -19,7 +19,7 @@ const HotPot = () => {
           marginBottom: '10px',
         }}
       >
-        Hot Pot Page
+        Vietnamese Drinks Page
       </h1>
       <p
         style={{
@@ -27,16 +27,15 @@ const HotPot = () => {
           marginBottom: '20px',
         }}
       >
-        This is the Hot Pot page.
+        This is the Vietnamese Drinks page.
       </p>
       <img
-        src="/Pho.png"
-        alt="Hot Pot Image"
+        src="/drink.png"
+        alt="Vietnamese Coffee"
         style={{
           width: '100%',
           height: '200px',
           objectFit: 'cover',
-          borderRadius: '10px',
           marginBottom: '20px',
         }}
       />
@@ -52,38 +51,7 @@ const HotPot = () => {
             marginTop: '0',
           }}
         >
-          About Hot Pot
-        </h2>
-        <p
-          style={{
-            fontSize: '16px',
-            marginBottom: '10px',
-          }}
-        >
-          Hot pot is a popular communal dish originating from China.
-        </p>
-        <p
-          style={{
-            fontSize: '16px',
-            marginBottom: '10px',
-          }}
-        >
-          It's a simmering pot of broth placed at the center of the table, and diners add various ingredients to cook in the pot.
-        </p>
-      </section>
-      <section
-        style={{
-          marginBottom: '40px',
-        }}
-      >
-        <h2
-          style={{
-            fontSize: '20px',
-            fontWeight: 'bold',
-            marginTop: '0',
-          }}
-        >
-          Popular Hot Pot Ingredients
+          Popular Vietnamese Drinks
         </h2>
         <ul
           style={{
@@ -97,42 +65,35 @@ const HotPot = () => {
               marginBottom: '10px',
             }}
           >
-            Thinly sliced beef
+            Vietnamese Coffee
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Pork belly
+            Fresh Coconut Water
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Shrimp
+            Sugarcane Juice
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Mushrooms
+            Vietnamese Tea
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Noodles
-          </li>
-          <li
-            style={{
-              marginBottom: '10px',
-            }}
-          >
-            Vegetables (e.g. carrots, lotus root, bok choy)
+            Fresh Fruit Smoothies
           </li>
         </ul>
       </section>
@@ -148,40 +109,58 @@ const HotPot = () => {
             marginTop: '0',
           }}
         >
-          Hot Pot Tips
+          About Vietnamese Coffee
         </h2>
-        <ol
+        <p
           style={{
-            listStyle: 'none',
-            padding: '0',
-            margin: '0',
+            fontSize: '16px',
+            marginBottom: '10px',
           }}
         >
-          <li
-            style={{
-              marginBottom: '10px',
-            }}
-          >
-            Choose a variety of ingredients to ensure a balanced meal.
-          </li>
-          <li
-            style={{
-              marginBottom: '10px',
-            }}
-          >
-            Start with lighter ingredients (e.g. vegetables) and move to heavier ones (e.g. meat).
-          </li>
-          <li
-            style={{
-              marginBottom: '10px',
-            }}
-          >
-            Don't overcook your ingredients!
-          </li>
-        </ol>
+          Vietnamese coffee is a strong and rich coffee made from robusta beans. It's typically served over ice and sweetened with condensed milk.
+        </p>
+        <p
+          style={{
+            fontSize: '16px',
+            marginBottom: '10px',
+          }}
+        >
+          The coffee is brewed in a small metal filter called a phin, which sits on top of a cup. The coffee drips slowly through the filter, creating a strong and flavorful coffee.
+        </p>
+      </section>
+      <section
+        style={{
+          marginBottom: '40px',
+        }}
+      >
+        <h2
+          style={{
+            fontSize: '20px',
+            fontWeight: 'bold',
+            marginTop: '0',
+          }}
+        >
+          About Fresh Coconut Water
+        </h2>
+        <p
+          style={{
+            fontSize: '16px',
+            marginBottom: '10px',
+          }}
+        >
+          Fresh coconut water is a refreshing and hydrating drink made from young coconuts. It's a popular drink in Vietnam, especially during the hot summer months.
+        </p>
+        <p
+          style={{
+            fontSize: '16px',
+            marginBottom: '10px',
+          }}
+        >
+          The coconut water is rich in electrolytes and has many health benefits, including reducing inflammation and improving digestion.
+        </p>
       </section>
     </div>
   );
 };
 
-export default HotPot;
+export default VietnameseDrinks;

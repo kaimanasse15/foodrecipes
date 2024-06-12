@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HotPot = () => {
+const Appetizers = () => {
   return (
     <div
       style={{
@@ -19,7 +19,7 @@ const HotPot = () => {
           marginBottom: '10px',
         }}
       >
-        Hot Pot Page
+        Vietnamese Appetizers
       </h1>
       <p
         style={{
@@ -27,11 +27,11 @@ const HotPot = () => {
           marginBottom: '20px',
         }}
       >
-        This is the Hot Pot page.
+        Explore the flavors of Vietnam with our delicious appetizers.
       </p>
       <img
-        src="/Pho.png"
-        alt="Hot Pot Image"
+        src="/appertizer.png"
+        alt="Vietnamese Appetizer Image"
         style={{
           width: '100%',
           height: '200px',
@@ -52,38 +52,7 @@ const HotPot = () => {
             marginTop: '0',
           }}
         >
-          About Hot Pot
-        </h2>
-        <p
-          style={{
-            fontSize: '16px',
-            marginBottom: '10px',
-          }}
-        >
-          Hot pot is a popular communal dish originating from China.
-        </p>
-        <p
-          style={{
-            fontSize: '16px',
-            marginBottom: '10px',
-          }}
-        >
-          It's a simmering pot of broth placed at the center of the table, and diners add various ingredients to cook in the pot.
-        </p>
-      </section>
-      <section
-        style={{
-          marginBottom: '40px',
-        }}
-      >
-        <h2
-          style={{
-            fontSize: '20px',
-            fontWeight: 'bold',
-            marginTop: '0',
-          }}
-        >
-          Popular Hot Pot Ingredients
+          Popular Vietnamese Appetizers
         </h2>
         <ul
           style={{
@@ -93,46 +62,54 @@ const HotPot = () => {
           }}
         >
           <li
-            style={{
-              marginBottom: '10px',
+          style={{
+            textDecoration: 'underline',
+            marginBottom: '10px',
             }}
           >
-            Thinly sliced beef
+             <a href="https://www.hungryhuy.com/how-to-make-goi-cuon-vietnamese-spring-rolls/" target="_blank" rel="noopener noreferrer">
+            Spring Rolls (Gỏi Cuốn)
+            </a>
           </li>
           <li
             style={{
-              marginBottom: '10px',
+                textDecoration: 'underline',
+                marginBottom: '10px',
             }}
           >
-            Pork belly
+         <a href="https://thewoksoflife.com/cha-gio-vietnamese-fried-spring-rolls/" target="_blank" rel="noopener noreferrer">
+            Fried Springroll (Chả Giò)
+            </a>
           </li>
           <li
             style={{
-              marginBottom: '10px',
+                textDecoration: 'underline',
+                marginBottom: '10px',
             }}
           >
-            Shrimp
+               <a href="https://www.foodnetwork.com/recipes/vietnamese-bbq-pork-meatballs-nem-nuong-3644728" target="_blank" rel="noopener noreferrer">
+            Grilled Pork Meatballs (Nem Nướng)
+            </a>
           </li>
           <li
             style={{
-              marginBottom: '10px',
+                textDecoration: 'underline',
+                marginBottom: '10px',
             }}
           >
-            Mushrooms
+                <a href="https://delightfulplate.com/vietnamese-fried-tofu-with-scallions/" target="_blank" rel="noopener noreferrer">
+            Fried Tofu (Đậu Hũ Chiên)
+            </a>
           </li>
           <li
             style={{
+              textDecoration: 'underline',
               marginBottom: '10px',
             }}
           >
-            Noodles
-          </li>
-          <li
-            style={{
-              marginBottom: '10px',
-            }}
-          >
-            Vegetables (e.g. carrots, lotus root, bok choy)
+            <a href="https://jenhdao.com/banh-bot-loc/" target="_blank" rel="noopener noreferrer">
+              Steamed Dumplings (Bánh Bot Loc)
+            </a>
           </li>
         </ul>
       </section>
@@ -148,7 +125,7 @@ const HotPot = () => {
             marginTop: '0',
           }}
         >
-          Hot Pot Tips
+          Tips for Enjoying Vietnamese Appetizers
         </h2>
         <ol
           style={{
@@ -162,21 +139,21 @@ const HotPot = () => {
               marginBottom: '10px',
             }}
           >
-            Choose a variety of ingredients to ensure a balanced meal.
+            Pair your appetizers with a refreshing Vietnamese beer or tea.
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Start with lighter ingredients (e.g. vegetables) and move to heavier ones (e.g. meat).
+            Experiment with different dipping sauces to find your favorite.
           </li>
           <li
             style={{
               marginBottom: '10px',
             }}
           >
-            Don't overcook your ingredients!
+            Share your appetizers with friends and family for a fun and social dining experience.
           </li>
         </ol>
       </section>
@@ -184,4 +161,4 @@ const HotPot = () => {
   );
 };
 
-export default HotPot;
+export default Appetizers;
