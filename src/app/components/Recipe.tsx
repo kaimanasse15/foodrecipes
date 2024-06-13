@@ -8,42 +8,42 @@ const recipeData = [
   {
     img: "/che2.png",
     title: "Sweet Red Bean Soup",
-    desc: "2x tuna sahimi, 1x noodles",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem",
   },
   {
     img: "/miquang1.png",
     title: "Mi Quang",
-    desc: "2x tuna sahimi, 1x noodles",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem",
   },
   {
     img: "/TomYum.png",
     title: "Tom Yum Vietnames Style Hot Pot",
-    desc: "2x tuna sahimi, 1x noodles",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem",
   },
   {
     img: "/Pho1.png",
     title: "Pho",
-    desc: "2x tuna sahimi, 1x noodles",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem",
   },
   {
     img: "/bunbohue.png",
     title: "Bun Bo Hue",
-    desc: "2x tuna sahimi, 1x noodles",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem",
   },
   {
     img: "/HuTieu.png",
     title: "Hu Tieu",
-    desc: "2x tuna sahimi, 1x noodles",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem",
   },
   {
     img: "/banhmi.png",
     title: "Banh Mi",
-    desc: "2x tuna sahimi, 1x noodles",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem",
   },
   {
     img: "/SpringRoll.png",
     title: "Fresh Spring Roll",
-    desc: "2x tuna sahimi, 1x noodles",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorem",
   },
 ];
 
